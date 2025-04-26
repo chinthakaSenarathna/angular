@@ -10,5 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-first-app';
+  title:string = 'my-first-app';
+
+  imageUrl:string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTNg06p6VGqYMJA1HCbOgfkKLV8oQcE4sOkg&s'
 }
